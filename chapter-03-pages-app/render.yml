@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: chapter-03-pages-app
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn django_project.wsgi:application"
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
