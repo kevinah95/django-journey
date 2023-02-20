@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chapter-03-pages-app"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Hernández Rostrán <kevinah95@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chapter_03_pages_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -10,7 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 
 - Django project for:
-  - Chapter 3: Pages App.
   - Chapter 4: Message Board App.
   - Chapter 5: Blog App.
   - Chapter 6: Forms.
@@ -32,4 +31,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Django projects for:
   - Chapter 1: Initial Set Up.
   - Chapter 2: Hello World App.
+  - Chapter 3: Pages App.
 - Poetry based projects.
