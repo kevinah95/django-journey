@@ -8,6 +8,6 @@ pip install --upgrade pip
 
 pip install poetry==1.2.0
 
-poetry install
+python -m poetry install
 
 python manage.py migrate
