@@ -4,9 +4,9 @@ set -o errexit
 
 echo "Installing the latest version of poetry..."
 export POETRY_HOME="$(pwd)/.poetry"
-python3 install-poetry.py --version 1.2.0
+pip install poetry==1.2.0 --user
 
-echo "$POETRY_HOME/bin/poetry --version"
+echo "poetry --version"
 
 poetry install
 
