@@ -2,12 +2,11 @@
 # exit on error
 set -o errexit
 
-echo "Installing the latest version of poetry..."
-export POETRY_HOME="$(pwd)/.poetry"
-curl -sSL https://install.python-poetry.org | python3 -
-export PATH="$POETRY_HOME/bin:$PATH"
-poetry --version
+export POETRY_HOME=/opt/poetry
+python3 -m venv $POETRY_HOME
+$POETRY_HOME/bin/pip install poetry==1.2.0
+$POETRY_HOME/bin/poetry --version
 
-poetry install
+$POETRY_HOME/bin/poetry install
 
 python manage.py migrate
