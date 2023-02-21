@@ -1,5 +1,20 @@
 services:
   - type: web
+    name: django-journey-chapter-02-hello-world-app
+    env: python
+    region: oregon
+    plan: free
+    rootDir: chapter-02-hello-world-app
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn django_project.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.8.2
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
+  - type: web
     name: django-journey-chapter-03-pages-app
     env: python
     region: oregon
