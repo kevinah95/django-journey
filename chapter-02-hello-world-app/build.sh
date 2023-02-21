@@ -8,7 +8,7 @@ pip install --upgrade pip
 
 pip install poetry==1.2.0
 
-poetry env use .venv
+poetry env use .venv/bin/python
 
 poetry install
 
