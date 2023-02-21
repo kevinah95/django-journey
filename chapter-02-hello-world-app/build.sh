@@ -7,7 +7,7 @@ export POETRY_HOME="$(pwd)/.poetry"
 
 pip install --upgrade pip
 
-pip install poetry==1.2.0 --user
+pip install poetry==1.2.0
 
 echo "poetry --version"
 
