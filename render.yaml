@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: chapter-03-pages-app
+    name: django-journey-chapter-03-pages-app
     env: python
     region: oregon
     plan: free
