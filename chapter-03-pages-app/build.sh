@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-export POETRY_HOME=/opt/poetry
+export POETRY_HOME="$(pwd)/.poetry"
 python3 -m venv $POETRY_HOME
 $POETRY_HOME/bin/pip install poetry==1.2.0
 $POETRY_HOME/bin/poetry --version
