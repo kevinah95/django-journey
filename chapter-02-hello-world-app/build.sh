@@ -2,11 +2,11 @@
 # exit on error
 set -o errexit
 
-python -m pip install --user pipx
+echo "Installing the latest version of poetry..."
+export POETRY_HOME="$(pwd)/.poetry"
+python3 install-poetry.py --version 1.2.0
 
-python -m pipx install poetry==1.2.0
-
-echo "poetry --version"
+echo "$POETRY_HOME/bin/poetry --version"
 
 poetry install
 
