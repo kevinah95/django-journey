@@ -33,3 +33,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Chapter 2: Hello World App.
   - Chapter 3: Pages App.
 - Poetry based projects.
+- Add Render for deploy.
