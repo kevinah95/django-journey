@@ -2,6 +2,7 @@ services:
   - type: web
     name: chapter-03-pages-app
     env: python
+    rootDir: chapter-03-pages-app
     buildCommand: "./build.sh"
     startCommand: "gunicorn django_project.wsgi:application"
     envVars:
