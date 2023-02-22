@@ -23,6 +23,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Chapter 15: Comments.
   - Chapter 16: Deployment.
 
+## [0.1.0] - 2023-02-22
+
+### Changed
+
+- README.md to include deployment steps on Render.
+
 ## [0.1.0] - 2023-02-21
 
 ### Added
