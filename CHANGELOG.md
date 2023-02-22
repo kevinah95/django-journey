@@ -10,7 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 
 - Django project for:
-  - Chapter 4: Message Board App.
   - Chapter 5: Blog App.
   - Chapter 6: Forms.
   - Chapter 7: User Accounts.
@@ -23,6 +22,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Chapter 14: Permissions and Authorization.
   - Chapter 15: Comments.
   - Chapter 16: Deployment.
+
+## [0.1.0] - 2023-02-21
+
+### Added
+
+- Chapter 4: Message Board App.
 
 ## [0.1.0] - 2023-02-20
 

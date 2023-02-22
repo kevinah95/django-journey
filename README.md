@@ -7,7 +7,7 @@ This is my django journey based on the book *Django for Beginners Build websites
 - [x] Chapter 1: Initial Set Up.
 - [x] Chapter 2: Hello World App.
 - [x] Chapter 3: Pages App.
-- [ ] Chapter 4: Message Board App.
+- [x] Chapter 4: Message Board App.
 - [ ] Chapter 5: Blog App.
 - [ ] Chapter 6: Forms.
 - [ ] Chapter 7: User Accounts.
